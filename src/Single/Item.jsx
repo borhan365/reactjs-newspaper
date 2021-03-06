@@ -9,7 +9,7 @@ function Item(props) {
             <div class="col-md-3 col-sm-6">
                 <div class="releted_single_box">
                     <img src={props.imgsrc} alt="Dummy" />
-                    <Link to="/single"><h3>{props.title}</h3></Link>
+                    <Link path='/single'><h3>{props.title}</h3></Link>
                 </div>
             </div>   
         </>
